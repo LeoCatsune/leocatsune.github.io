@@ -1,3 +1,3 @@
-## Hi.
+## Hi
 
-So. This Exists.
+So, This Exists.
