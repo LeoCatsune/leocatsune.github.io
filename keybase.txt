@@ -1,0 +1,63 @@
+==================================================================
+https://keybase.io/protodelta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://protogendelta.github.io
+  * I am protodelta (https://keybase.io/protodelta) on keybase.
+  * I have a public key with fingerprint B8DE C86C 1CED 9069 5F19  34B3 4E11 1FB5 1923 7B72
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0116e672476e0ec8227d29f3a0618b45710ef40f8a899b160323e6f731191199e0140a",
+      "fingerprint": "b8dec86c1ced90695f1934b34e111fb519237b72",
+      "host": "keybase.io",
+      "key_id": "4e111fb519237b72",
+      "kid": "0116e672476e0ec8227d29f3a0618b45710ef40f8a899b160323e6f731191199e0140a",
+      "uid": "f168e13815a50bec628ff0204c02a319",
+      "username": "protodelta"
+    },
+    "service": {
+      "hostname": "protogendelta.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1657614032,
+  "expire_in": 157680000,
+  "prev": "d4ef381603d8dd289e3dbc4b52141e94235117e8aeee156579fa287296b5aa85",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMFEAnicrVK/ixQxGJ31F7ig3KkcWshJznJZ8iWTTLJY2Wh1IjZi4ZJMvuwNu86s
+M7PrrcuChZX4H9gqYmUlWPpju0Ow9kT/CLEQEcysChaWhkDIl/fe995HlscORu2N
+7fXNF2e25mVr7/XjSWTfdd/PiS3cjPTmZIirA0cOq7o/zBzpEQogUSYsTiRSTBVj
+iWPac0MlKBuLBCj6mHpllNYWJOWMo/QJB9Bha6QQU0M6xGf5AMtxmeV1kLXKBTGZ
+QopOU6mFB81jy2MEAG8FaMYTm7BA3CmqhhHMWVNhNytCLVz6K3v/wP9n35OVnAep
+ELgCYQS1mEqmvKeMxillhoNugBWWubmFAT0ui7pwOKoNWXRIqE+zFJvRNln+xgww
+X8G6g6zemdhf4VYvaTEKoJ26Hle9RqSejRvWHbT933p9m+UuDDUwplhWWZGTHgRk
+WmdNA5AikSEDZx2Cu+OsxH7WIEJV0bCaPjgNki5GH4KFCTjlHFMaubNpbAWDGFDH
+jAuABJVBRBBBVXvDVMK0tMIYJUiT8HZekJ4INs0gSFbZIDf1pESyeHPzULTRjo4c
+PtD8tah9dO3PD/z8sRWtXf06tdfPPW2/3f9y7aJ/furulU+b2zdOv7r3sliqC5da
+0ffdy8POwx+Pnu2fXT457+ffxg/ur+8t2luz4x+WJ0+0fgID3d2i
+=r9rj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/protodelta
+
+==================================================================
