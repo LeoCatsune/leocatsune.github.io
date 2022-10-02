@@ -61,3 +61,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/protodelta
 
 ==================================================================
+==================================================================
+https://keybase.io/protodelta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://delta.is-a.dev
+  * I am protodelta (https://keybase.io/protodelta) on keybase.
+  * I have a public key ASA3N02QG0q2eDp1TzqFiyBVQ4RZ1pHhMxXpyGZJnhzqCwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0116e672476e0ec8227d29f3a0618b45710ef40f8a899b160323e6f731191199e0140a",
+      "host": "keybase.io",
+      "kid": "012037374d901b4ab6783a754f3a858b2055438459d691e13315e9c866499e1cea0b0a",
+      "uid": "f168e13815a50bec628ff0204c02a319",
+      "username": "protodelta"
+    },
+    "merkle_root": {
+      "ctime": 1664751119,
+      "hash": "88391e102ee40c3e48e4792146f4aeb1832341704b78ebd7e86d38f3f1858b526d4b6396a01cc7de9281bd0dba7ede440681a1ee018b62dbba94bb65f87d47e8",
+      "hash_meta": "ef2991d6c48b5fcbb3acf7caa9b3e1fe80f0960ebac83524e1b17dadeeded7ed",
+      "seqno": 23299129
+    },
+    "service": {
+      "entropy": "u7zixppDUD0R+Vpq4WCpVBJ2",
+      "hostname": "delta.is-a.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1664751198,
+  "expire_in": 504576000,
+  "prev": "ef9a403dff68f073abd0cadbbc05a6c68715fd961e82a3affdd6537cf4ac2dc2",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNzdNkBtKtng6dU86hYsgVUOEWdaR4TMV6chmSZ4c6gsKp3BheWxvYWTESpcCEcQg75pAPf9o8HOr0MrbvAWmxocV/ZYegqOv/dZTfPSsLcLEIMjOGt4vw5vyeN6o1qHWXGDCdKqm4awqitWxiJchacVtAgHCo3NpZ8RAcVYr7xwdbd+bnLfAgy6AupntN7vKOyUo+omuvlH+ah3qt58bHXoDBvd3ZCtUtOonrFXBI2Z9RkbhsaresJ0VCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII1+Q2qw1y/9PjOWtqn6RDIQIR5m4eAr5HtvTwzBJrheo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/protodelta
+
+==================================================================
