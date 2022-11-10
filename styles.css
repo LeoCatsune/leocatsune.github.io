@@ -14,17 +14,26 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  align-content: flex-start;
   justify-content: center;
   text-align: center;
   
   font-family: monospace;
 }
 body.stylish-bg {
+  padding: 3rem 0;
   background: linear-gradient(to bottom, var(--bg-gradient-from), var(--bg-gradient-to)), var(--bg-image), var(--bg-color);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   backdrop-filter: blur(5px);
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    height: calc(100vh - 6rem);
+    align-content: center;
+  }
 }
 
 section {
@@ -49,23 +58,43 @@ a, a:hover, a:focus, a:active {
 .page-title {
   font-size: xx-large;
 }
-.nickname {
+.aka {
 	font-size: large;
-	vertical-align: middle;
 	color: gray;
 }
 
 .links {
   display: flex;
-  flex-wrap: wrap;
+  flex: 1 450px;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 25px;
   gap: 10px;
+  width: 100%;
+}
+
+.links * {
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .links * {
+    max-width: 90vw;
+  }
+}
+
+.links h3 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+}
+.links hr {
+  width: 100%;
+  margin-left: 10px;
+  background: white;
+  border: 1px white solid;
+  opacity: 50%;
 }
 .links a {
-  max-width: 400px;
   width: 100%;
   padding: 10px;
   border: 5px white solid;
@@ -74,7 +103,10 @@ a, a:hover, a:focus, a:active {
   background: linear-gradient(to right, white 50%, transparent 50%);
   background-size: 200% 101%;
   background-position: right top;
-  transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out width 0s;
+
+  box-sizing: border-box;
+  width: 100%;
 }
 .links a:hover {
   background-position: left top;
@@ -84,4 +116,14 @@ a, a:hover, a:focus, a:active {
 .icon {
   display: inline;
   float: left;
+}
+
+.u-name {
+  visibility: hidden;
+  display: none;
+  opacity: 50%;
+}
+.links a:hover .u-name {
+  display: initial;
+  visibility: visible;
 }
