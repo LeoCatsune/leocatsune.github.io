@@ -103,7 +103,7 @@ a, a:hover, a:focus, a:active {
   background: linear-gradient(to right, white 50%, transparent 50%);
   background-size: 200% 101%;
   background-position: right top;
-  transition: all .1s ease-in-out width 0s;
+  transition: all .25s ease-in-out, width 0s;
 
   box-sizing: border-box;
   width: 100%;
