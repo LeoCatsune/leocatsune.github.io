@@ -103,7 +103,10 @@ a, a:hover, a:focus, a:active {
   background: linear-gradient(to right, white 50%, transparent 50%);
   background-size: 200% 101%;
   background-position: right top;
-  transition: all .25s ease-in-out, width 0s;
+
+  transition-property: color, background-position, filter;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
 
   box-sizing: border-box;
   width: 100%;
@@ -116,6 +119,9 @@ a, a:hover, a:focus, a:active {
 .icon {
   display: inline;
   float: left;
+}
+.icon i {
+  font-weight: normal;
 }
 
 .u-name {
