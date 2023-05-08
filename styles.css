@@ -133,3 +133,19 @@ a, a:hover, a:focus, a:active {
   display: initial;
   visibility: visible;
 }
+
+.fyi-card {
+  background-color: #141414;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.fyi-card h2 {
+  margin-bottom: 0px;
+}
+
+.fyi-card a {
+  text-decoration: underline;
+}
