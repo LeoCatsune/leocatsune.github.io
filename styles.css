@@ -149,3 +149,11 @@ a, a:hover, a:focus, a:active {
 .fyi-card a {
   text-decoration: underline;
 }
+
+code {
+  font-family: monospace;
+  background-color: #0A0A0A;
+  padding: 1px;
+  border-radius: 0.25rem;
+  border: 1px solid #303030;
+}
