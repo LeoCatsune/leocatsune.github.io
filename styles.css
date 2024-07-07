@@ -38,6 +38,8 @@ body.stylish-bg {
 
 section {
   flex: 1 450px;
+  max-height: 100%;
+  overflow: auto;
 }
 footer {
   color: gray;
